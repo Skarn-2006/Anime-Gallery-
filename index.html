@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Gallery</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-900 min-h-screen">
+    <div class="container mx-auto px-4 py-8">
+        <!-- Search Bar -->
+        <div class="mb-8">
+            <input type="text" 
+                   id="searchInput" 
+                   placeholder="Search anime..." 
+                   class="w-full p-4 rounded-lg bg-gray-800 text-white border-2 border-cyan-500 focus:outline-none focus:border-cyan-600 shadow-neon">
+        </div>
+
+        <!-- Image Gallery -->
+        <div id="imageGallery" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Images will be added here via JavaScript -->
+        </div>
+    </div>
+    <div class="watermark">Shivam Karn</div>
+    <script src="script.js"></script>
+</body>
+</html>
